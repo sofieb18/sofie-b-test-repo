@@ -188,5 +188,15 @@
     <button><strong>Your Tokyo Guide </strong></button>
 
     <h4>🌸 Coded by Sofia Bahri 🌸</h4>
+    <script>
+      function apply() {
+        let firstName = prompt("What is your first name?");
+        alert("Hi " + firstName + ", enjoy your trip to Japan!");
+      }
+
+      let applyButton = document.querySelector("button");
+
+      applyButton.addEventListener("click", apply);
+    </script>
   </body>
 </html>
